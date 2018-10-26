@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>39db2851-cdd4-44d0-8bd7-880d7294caa8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Console_Python.py</StartupFile>
+    <StartupFile>instagram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Console_Python.py" />
+    <Compile Include="delete.py" />
+    <Compile Include="instagram.py" />
+    <Compile Include="referential_array.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

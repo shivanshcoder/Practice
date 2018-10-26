@@ -2,16 +2,24 @@ using System;
 
 class Test
 {
-    static void Main()
+    public class Point
     {
-        int x = 12 * 30;
-        Console.WriteLine(x);
-        Console.Read();
+        public int x;
+        public void print()
+        {
+            Console.WriteLine(x);
+        }
     }
 
-    static int FeetToInches(int Feet)
+    static void Main()
     {
-        int inches = Feet * 12;
-        return inches;
+        int[,,] temp =
+        {
+            {{1 },{2 },{3 } },
+            {{1 },{2 },{3 } }
+        };
+
+        Console.WriteLine(temp.GetLength(1));
+        Console.ReadKey();
     }
 }
